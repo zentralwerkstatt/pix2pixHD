@@ -1,0 +1,1 @@
+python train.py --dataroot "./datasets/min_map_720/" --label_nc 0 --no_instance --name min_map_720 --loadSize 1100 --fineSize 1100

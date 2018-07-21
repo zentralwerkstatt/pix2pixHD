@@ -1,0 +1,10 @@
+GIMP Palette
+Name: hd_palette
+Columns: 1
+#
+222	222	222	Background
+242	242	242	Building
+0	0	0	Street
+0	27	248	Water
+251	237	214	Building
+254	254	254	Background

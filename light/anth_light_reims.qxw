@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.1</Version>
+  <Author>Fabian</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe" ID="0">
+    <Input Plugin="MIDI" Line="1">
+     <PluginParameters MIDISendNoteOff="true"/>
+    </Input>
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="107"/>
+    </Output>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>0</ID>
+   <Name>Rhombes 1</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>1</ID>
+   <Name>Rhombes 2</Name>
+   <Universe>0</Universe>
+   <Address>87</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>2</ID>
+   <Name>Rhombes 3</Name>
+   <Universe>0</Universe>
+   <Address>91</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>3</ID>
+   <Name>Rhombes 4</Name>
+   <Universe>0</Universe>
+   <Address>62</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>4</ID>
+   <Name>Rhombes 5</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>5</ID>
+   <Name>Rhombes 6</Name>
+   <Universe>0</Universe>
+   <Address>34</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>6</ID>
+   <Name>Rhombes 7</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>7</ID>
+   <Name>Rhombes 8</Name>
+   <Universe>0</Universe>
+   <Address>106</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>8</ID>
+   <Name>Music 1</Name>
+   <Universe>0</Universe>
+   <Address>65</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>9</ID>
+   <Name>Music 2</Name>
+   <Universe>0</Universe>
+   <Address>61</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>10</ID>
+   <Name>Music 3</Name>
+   <Universe>0</Universe>
+   <Address>84</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>11</ID>
+   <Name>Music 4</Name>
+   <Universe>0</Universe>
+   <Address>78</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>12</ID>
+   <Name>Music 5</Name>
+   <Universe>0</Universe>
+   <Address>70</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>13</ID>
+   <Name>Table 1</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>14</ID>
+   <Name>Table 2</Name>
+   <Universe>0</Universe>
+   <Address>55</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>15</ID>
+   <Name>Table 3</Name>
+   <Universe>0</Universe>
+   <Address>88</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>16</ID>
+   <Name>Table 4</Name>
+   <Universe>0</Universe>
+   <Address>89</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>17</ID>
+   <Name>Table 5</Name>
+   <Universe>0</Universe>
+   <Address>86</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>18</ID>
+   <Name>Table 6</Name>
+   <Universe>0</Universe>
+   <Address>85</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>19</ID>
+   <Name>Table 7</Name>
+   <Universe>0</Universe>
+   <Address>83</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>20</ID>
+   <Name>Table 8</Name>
+   <Universe>0</Universe>
+   <Address>90</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>21</ID>
+   <Name>Middle 104</Name>
+   <Universe>0</Universe>
+   <Address>25</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>22</ID>
+   <Name>Middle NC</Name>
+   <Universe>0</Universe>
+   <Address>28</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>23</ID>
+   <Name>Front 1</Name>
+   <Universe>0</Universe>
+   <Address>19</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>24</ID>
+   <Name>Front 2</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>25</ID>
+   <Name>104 1</Name>
+   <Universe>0</Universe>
+   <Address>97</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>26</ID>
+   <Name>104 2</Name>
+   <Universe>0</Universe>
+   <Address>98</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>27</ID>
+   <Name>104</Name>
+   <Universe>0</Universe>
+   <Address>99</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>28</ID>
+   <Name>104 4</Name>
+   <Universe>0</Universe>
+   <Address>101</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>29</ID>
+   <Name>104 5</Name>
+   <Universe>0</Universe>
+   <Address>36</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>30</ID>
+   <Name>104 6</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>31</ID>
+   <Name>104 7</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>32</ID>
+   <Name>104 8</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>33</ID>
+   <Name>104 9</Name>
+   <Universe>0</Universe>
+   <Address>31</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>34</ID>
+   <Name>104 10</Name>
+   <Universe>0</Universe>
+   <Address>32</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>35</ID>
+   <Name>104 11</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>36</ID>
+   <Name>104 12</Name>
+   <Universe>0</Universe>
+   <Address>92</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>37</ID>
+   <Name>NC 1</Name>
+   <Universe>0</Universe>
+   <Address>66</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>38</ID>
+   <Name>NC 2</Name>
+   <Universe>0</Universe>
+   <Address>67</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>39</ID>
+   <Name>NC 3</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>40</ID>
+   <Name>NC 4</Name>
+   <Universe>0</Universe>
+   <Address>100</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>41</ID>
+   <Name>NC 5</Name>
+   <Universe>0</Universe>
+   <Address>37</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>42</ID>
+   <Name>NC 6</Name>
+   <Universe>0</Universe>
+   <Address>57</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>43</ID>
+   <Name>NC 7</Name>
+   <Universe>0</Universe>
+   <Address>58</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>44</ID>
+   <Name>NC 8</Name>
+   <Universe>0</Universe>
+   <Address>79</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>45</ID>
+   <Name>NC 9</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>46</ID>
+   <Name>NC 10</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>47</ID>
+   <Name>NC 11</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>48</ID>
+   <Name>NC 12</Name>
+   <Universe>0</Universe>
+   <Address>95</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>49</ID>
+   <Name>NC 13</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>50</ID>
+   <Name>NC 14</Name>
+   <Universe>0</Universe>
+   <Address>8</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>51</ID>
+   <Name>NC 15</Name>
+   <Universe>0</Universe>
+   <Address>7</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>52</ID>
+   <Name>NC 16</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>53</ID>
+   <Name>Salle Gang links</Name>
+   <Universe>0</Universe>
+   <Address>3</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>54</ID>
+   <Name>Salle Gang rechts </Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>55</ID>
+   <Name>Salle Bar 1</Name>
+   <Universe>0</Universe>
+   <Address>2</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>56</ID>
+   <Name>Salle Audience</Name>
+   <Universe>0</Universe>
+   <Address>5</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>57</ID>
+   <Name>Music 6</Name>
+   <Universe>0</Universe>
+   <Address>71</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>58</ID>
+   <Name>Salle Bar 2</Name>
+   <Universe>0</Universe>
+   <Address>29</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <ChannelsGroup ID="0" Name="Rhombes" Value="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="Music" Value="0">8,0,9,0,10,0,11,0,12,0,57,0</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="Table" Value="0">13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="Middle 104" Value="0">21,0</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="Middle NC" Value="0">22,0</ChannelsGroup>
+  <ChannelsGroup ID="5" Name="Front" Value="0">23,0,24,0</ChannelsGroup>
+  <ChannelsGroup ID="6" Name="104" Value="0">25,0,26,0,27,0,28,0,29,0,30,0,31,0,32,0,33,0,34,0,35,0,36,0</ChannelsGroup>
+  <ChannelsGroup ID="7" Name="NC" Value="0">37,0,38,0,39,0,40,0,41,0,42,0,43,0,44,0,45,0,46,0,47,0,48,0,49,0,50,0,51,0,52,0</ChannelsGroup>
+  <ChannelsGroup ID="8" Name="Salle" Value="0">53,0,54,0,55,0,56,0,58,0</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="Einlass">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>7,150,8,150</ChannelGroupsVal>
+   <FixtureVal ID="37">0,150</FixtureVal>
+   <FixtureVal ID="38">0,150</FixtureVal>
+   <FixtureVal ID="39">0,150</FixtureVal>
+   <FixtureVal ID="40">0,150</FixtureVal>
+   <FixtureVal ID="41">0,150</FixtureVal>
+   <FixtureVal ID="42">0,150</FixtureVal>
+   <FixtureVal ID="43">0,150</FixtureVal>
+   <FixtureVal ID="44">0,150</FixtureVal>
+   <FixtureVal ID="45">0,150</FixtureVal>
+   <FixtureVal ID="46">0,150</FixtureVal>
+   <FixtureVal ID="47">0,150</FixtureVal>
+   <FixtureVal ID="48">0,150</FixtureVal>
+   <FixtureVal ID="49">0,150</FixtureVal>
+   <FixtureVal ID="50">0,150</FixtureVal>
+   <FixtureVal ID="51">0,150</FixtureVal>
+   <FixtureVal ID="52">0,150</FixtureVal>
+   <FixtureVal ID="53">0,150</FixtureVal>
+   <FixtureVal ID="54">0,150</FixtureVal>
+   <FixtureVal ID="55">0,150</FixtureVal>
+   <FixtureVal ID="56">0,150</FixtureVal>
+   <FixtureVal ID="58">0,150</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Chaser" Name="Chaser">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="3596000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="PerStep" Duration="PerStep"/>
+   <Step Number="0" FadeIn="5000" Hold="3600000" FadeOut="60000">0</Step>
+   <Step Number="1" FadeIn="60000" Hold="3600000" FadeOut="15000">10</Step>
+   <Step Number="2" FadeIn="15000" Hold="3600000" FadeOut="5000">18</Step>
+   <Step Number="3" FadeIn="5000" Hold="0" FadeOut="120000">25</Step>
+   <Step Number="4" FadeIn="120000" Hold="3600000" FadeOut="10000">5</Step>
+   <Step Number="5" FadeIn="10000" Hold="3600000" FadeOut="10000">11</Step>
+   <Step Number="6" FadeIn="10000" Hold="3600000" FadeOut="10000">4</Step>
+   <Step Number="7" FadeIn="10000" Hold="3600000" FadeOut="5000">13</Step>
+   <Step Number="8" FadeIn="5000" Hold="3600000" FadeOut="10000">12</Step>
+   <Step Number="9" FadeIn="10000" Hold="3600000" FadeOut="10000">6</Step>
+   <Step Number="10" FadeIn="10000" Hold="3600000" FadeOut="10000">15</Step>
+   <Step Number="11" FadeIn="10000" Hold="3600000" FadeOut="20000">7</Step>
+   <Step Number="12" FadeIn="20000" Hold="3600000" FadeOut="5000">16</Step>
+   <Step Number="13" FadeIn="5000" Hold="3600000" FadeOut="5000">3</Step>
+   <Step Number="14" FadeIn="5000" Hold="3600000" FadeOut="5000">8</Step>
+  </Function>
+  <Function ID="3" Type="Scene" Name="Applaus">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>7,255,5,255</ChannelGroupsVal>
+   <FixtureVal ID="37">0,255</FixtureVal>
+   <FixtureVal ID="38">0,255</FixtureVal>
+   <FixtureVal ID="39">0,255</FixtureVal>
+   <FixtureVal ID="40">0,255</FixtureVal>
+   <FixtureVal ID="41">0,255</FixtureVal>
+   <FixtureVal ID="42">0,255</FixtureVal>
+   <FixtureVal ID="43">0,255</FixtureVal>
+   <FixtureVal ID="44">0,255</FixtureVal>
+   <FixtureVal ID="45">0,255</FixtureVal>
+   <FixtureVal ID="46">0,255</FixtureVal>
+   <FixtureVal ID="47">0,255</FixtureVal>
+   <FixtureVal ID="48">0,255</FixtureVal>
+   <FixtureVal ID="49">0,255</FixtureVal>
+   <FixtureVal ID="50">0,255</FixtureVal>
+   <FixtureVal ID="51">0,255</FixtureVal>
+   <FixtureVal ID="52">0,255</FixtureVal>
+   <FixtureVal ID="23">0,255</FixtureVal>
+   <FixtureVal ID="24">0,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="Tisch Aufbau 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>4,0,1,70,2,70</ChannelGroupsVal>
+   <FixtureVal ID="22">0,0</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,35</FixtureVal>
+   <FixtureVal ID="10">0,50</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="13">0,70</FixtureVal>
+   <FixtureVal ID="14">0,70</FixtureVal>
+   <FixtureVal ID="15">0,70</FixtureVal>
+   <FixtureVal ID="16">0,70</FixtureVal>
+   <FixtureVal ID="17">0,70</FixtureVal>
+   <FixtureVal ID="18">0,70</FixtureVal>
+   <FixtureVal ID="19">0,70</FixtureVal>
+   <FixtureVal ID="20">0,70</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="Rhombes high">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,30,2,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,30</FixtureVal>
+   <FixtureVal ID="1">0,30</FixtureVal>
+   <FixtureVal ID="2">0,30</FixtureVal>
+   <FixtureVal ID="3">0,30</FixtureVal>
+   <FixtureVal ID="4">0,30</FixtureVal>
+   <FixtureVal ID="5">0,30</FixtureVal>
+   <FixtureVal ID="6">0,30</FixtureVal>
+   <FixtureVal ID="7">0,30</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="Fight">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>2,0,4,7,5,54,7,34,1,50</ChannelGroupsVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="14">0,0</FixtureVal>
+   <FixtureVal ID="15">0,0</FixtureVal>
+   <FixtureVal ID="16">0,0</FixtureVal>
+   <FixtureVal ID="17">0,0</FixtureVal>
+   <FixtureVal ID="18">0,0</FixtureVal>
+   <FixtureVal ID="19">0,0</FixtureVal>
+   <FixtureVal ID="20">0,0</FixtureVal>
+   <FixtureVal ID="22">0,7</FixtureVal>
+   <FixtureVal ID="37">0,34</FixtureVal>
+   <FixtureVal ID="38">0,34</FixtureVal>
+   <FixtureVal ID="39">0,34</FixtureVal>
+   <FixtureVal ID="40">0,34</FixtureVal>
+   <FixtureVal ID="41">0,34</FixtureVal>
+   <FixtureVal ID="42">0,34</FixtureVal>
+   <FixtureVal ID="43">0,34</FixtureVal>
+   <FixtureVal ID="44">0,34</FixtureVal>
+   <FixtureVal ID="45">0,34</FixtureVal>
+   <FixtureVal ID="46">0,34</FixtureVal>
+   <FixtureVal ID="47">0,34</FixtureVal>
+   <FixtureVal ID="48">0,34</FixtureVal>
+   <FixtureVal ID="49">0,34</FixtureVal>
+   <FixtureVal ID="50">0,34</FixtureVal>
+   <FixtureVal ID="51">0,34</FixtureVal>
+   <FixtureVal ID="52">0,34</FixtureVal>
+   <FixtureVal ID="8">0,50</FixtureVal>
+   <FixtureVal ID="9">0,50</FixtureVal>
+   <FixtureVal ID="10">0,50</FixtureVal>
+   <FixtureVal ID="11">0,50</FixtureVal>
+   <FixtureVal ID="12">0,50</FixtureVal>
+   <FixtureVal ID="57">0,50</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="Video">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,233,1,10</ChannelGroupsVal>
+   <FixtureVal ID="21">0,0</FixtureVal>
+   <FixtureVal ID="8">0,10</FixtureVal>
+   <FixtureVal ID="9">0,10</FixtureVal>
+   <FixtureVal ID="10">0,10</FixtureVal>
+   <FixtureVal ID="11">0,10</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+   <FixtureVal ID="57">0,10</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Auslass">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>7,0,5,0,8,255</ChannelGroupsVal>
+   <FixtureVal ID="37">0,0</FixtureVal>
+   <FixtureVal ID="38">0,0</FixtureVal>
+   <FixtureVal ID="39">0,0</FixtureVal>
+   <FixtureVal ID="40">0,0</FixtureVal>
+   <FixtureVal ID="41">0,0</FixtureVal>
+   <FixtureVal ID="42">0,0</FixtureVal>
+   <FixtureVal ID="43">0,0</FixtureVal>
+   <FixtureVal ID="44">0,0</FixtureVal>
+   <FixtureVal ID="45">0,0</FixtureVal>
+   <FixtureVal ID="46">0,0</FixtureVal>
+   <FixtureVal ID="47">0,0</FixtureVal>
+   <FixtureVal ID="48">0,0</FixtureVal>
+   <FixtureVal ID="49">0,0</FixtureVal>
+   <FixtureVal ID="50">0,0</FixtureVal>
+   <FixtureVal ID="51">0,0</FixtureVal>
+   <FixtureVal ID="52">0,0</FixtureVal>
+   <FixtureVal ID="23">0,0</FixtureVal>
+   <FixtureVal ID="24">0,0</FixtureVal>
+   <FixtureVal ID="53">0,255</FixtureVal>
+   <FixtureVal ID="54">0,255</FixtureVal>
+   <FixtureVal ID="55">0,255</FixtureVal>
+   <FixtureVal ID="56">0,255</FixtureVal>
+   <FixtureVal ID="58">0,255</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Balloon">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>6,255</ChannelGroupsVal>
+   <FixtureVal ID="25">0,255</FixtureVal>
+   <FixtureVal ID="26">0,255</FixtureVal>
+   <FixtureVal ID="27">0,255</FixtureVal>
+   <FixtureVal ID="28">0,255</FixtureVal>
+   <FixtureVal ID="29">0,255</FixtureVal>
+   <FixtureVal ID="30">0,255</FixtureVal>
+   <FixtureVal ID="31">0,255</FixtureVal>
+   <FixtureVal ID="32">0,255</FixtureVal>
+   <FixtureVal ID="33">0,255</FixtureVal>
+   <FixtureVal ID="34">0,255</FixtureVal>
+   <FixtureVal ID="35">0,255</FixtureVal>
+   <FixtureVal ID="36">0,255</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="Tisch Aufbau 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>4,100,1,70</ChannelGroupsVal>
+   <FixtureVal ID="22">0,100</FixtureVal>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,35</FixtureVal>
+   <FixtureVal ID="10">0,50</FixtureVal>
+   <FixtureVal ID="11">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="Destruction">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>2,26,4,64,5,41,1,50</ChannelGroupsVal>
+   <FixtureVal ID="13">0,26</FixtureVal>
+   <FixtureVal ID="14">0,26</FixtureVal>
+   <FixtureVal ID="15">0,26</FixtureVal>
+   <FixtureVal ID="16">0,26</FixtureVal>
+   <FixtureVal ID="17">0,26</FixtureVal>
+   <FixtureVal ID="18">0,26</FixtureVal>
+   <FixtureVal ID="19">0,26</FixtureVal>
+   <FixtureVal ID="20">0,26</FixtureVal>
+   <FixtureVal ID="22">0,64</FixtureVal>
+   <FixtureVal ID="23">0,41</FixtureVal>
+   <FixtureVal ID="24">0,41</FixtureVal>
+   <FixtureVal ID="8">0,50</FixtureVal>
+   <FixtureVal ID="9">0,50</FixtureVal>
+   <FixtureVal ID="10">0,50</FixtureVal>
+   <FixtureVal ID="11">0,50</FixtureVal>
+   <FixtureVal ID="12">0,50</FixtureVal>
+   <FixtureVal ID="57">0,50</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="Konferenz">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>2,127</ChannelGroupsVal>
+   <FixtureVal ID="13">0,127</FixtureVal>
+   <FixtureVal ID="14">0,127</FixtureVal>
+   <FixtureVal ID="15">0,127</FixtureVal>
+   <FixtureVal ID="16">0,127</FixtureVal>
+   <FixtureVal ID="17">0,127</FixtureVal>
+   <FixtureVal ID="18">0,127</FixtureVal>
+   <FixtureVal ID="19">0,127</FixtureVal>
+   <FixtureVal ID="20">0,127</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="Return">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,233,1,23</ChannelGroupsVal>
+   <FixtureVal ID="21">0,233</FixtureVal>
+   <FixtureVal ID="8">0,14</FixtureVal>
+   <FixtureVal ID="9">0,16</FixtureVal>
+   <FixtureVal ID="10">0,34</FixtureVal>
+   <FixtureVal ID="11">0,29</FixtureVal>
+   <FixtureVal ID="12">0,11</FixtureVal>
+   <FixtureVal ID="57">0,21</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="Blackout">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
+  <Function ID="18" Type="Scene" Name="Empty">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>6,75</ChannelGroupsVal>
+   <FixtureVal ID="25">0,75</FixtureVal>
+   <FixtureVal ID="26">0,75</FixtureVal>
+   <FixtureVal ID="27">0,75</FixtureVal>
+   <FixtureVal ID="28">0,75</FixtureVal>
+   <FixtureVal ID="29">0,75</FixtureVal>
+   <FixtureVal ID="30">0,75</FixtureVal>
+   <FixtureVal ID="31">0,75</FixtureVal>
+   <FixtureVal ID="32">0,75</FixtureVal>
+   <FixtureVal ID="33">0,75</FixtureVal>
+   <FixtureVal ID="34">0,75</FixtureVal>
+   <FixtureVal ID="35">0,75</FixtureVal>
+   <FixtureVal ID="36">0,75</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Rhombes low">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,20</ChannelGroupsVal>
+   <FixtureVal ID="0">0,20</FixtureVal>
+   <FixtureVal ID="1">0,20</FixtureVal>
+   <FixtureVal ID="2">0,20</FixtureVal>
+   <FixtureVal ID="3">0,20</FixtureVal>
+   <FixtureVal ID="4">0,20</FixtureVal>
+   <FixtureVal ID="5">0,20</FixtureVal>
+   <FixtureVal ID="6">0,20</FixtureVal>
+   <FixtureVal ID="7">0,20</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <CueList Caption="Cue list" ID="1">
+    <WindowState Visible="True" X="0" Y="0" Width="595" Height="330"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>2</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next>
+     <Input Universe="0" Channel="59"/>
+    </Next>
+    <Previous>
+     <Input Universe="0" Channel="58"/>
+    </Previous>
+    <Playback/>
+    <Stop/>
+    <SlidersMode>Crossfade</SlidersMode>
+   </CueList>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
